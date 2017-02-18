@@ -1,0 +1,188 @@
+.button{
+	
+	 background-color: yellow;
+}
+header 
+{
+	height: 100px;
+	display: 	block;
+	text-align: center;
+	background-color: yellow;
+}
+
+.e1
+{
+	margin-left: 30;
+	width: 95%;
+	border-style: solid;
+	text-align: center;
+	display:inline-block;
+}
+
+.imge1
+{
+	margin-left: 200;
+	float:left;
+	height: 300px;
+	width: 200px;
+}
+
+.centered
+{
+	margin-left:0;
+	text-align: center;
+}
+
+.descriere1
+{
+	margin-left: 100;
+	text-align: center;
+	display:inline-block;
+	height: 200px;
+	width: 300px;
+}
+
+.linke1
+{
+	margin-top: 100;
+	margin-left: 200;
+	float:right;
+	margin-right: 100;
+}
+
+.e2
+{
+	margin-left: 30;
+	width: 95%;
+	border-style: solid;
+	text-align: center;
+	display:inline-block;
+}
+
+.imge2
+{
+	margin-left: 200;
+	float:left;
+	height: 300px;
+	width: 200px;
+}
+
+.descriere2
+{
+	margin-left: 100;
+	text-align: center;
+	display:inline-block;
+	height: 200px;
+	width: 300px;
+}
+
+.linke2
+{
+	margin-top: 100;
+	margin-left: 200;
+	float:right;
+	margin-right: 100;
+}
+
+.e3
+{
+	float:left;
+	width: 300px;
+	height: 300px;
+	border-style: solid;
+	display: inline-block;
+	margin-top: 50;
+	margin-left: 200;
+	
+}
+
+.test
+{
+	width:300px;
+	height: 300px;
+}
+
+.e4
+{
+	float:right;
+	margin-top: 50;
+	margin-right: 60;
+	width: 600px;
+	height: 300px;
+	border-style: solid;
+	display: inline-block;
+	
+}
+
+.title{
+	color:blue;
+	text-align:center;
+	font-size:50px;
+	
+}
+
+.logo
+{
+	display:inline-block;
+	float:right;
+	height: 100px;
+	width: 100px;
+}
+
+.logo:hover
+{	
+	transition: transform 2s;
+	transform: scale(1.3,1.3);
+}
+
+.centered{
+	text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	text-align:center;
+    overflow: hidden;
+    background-color: purple;
+}
+
+li {
+    float: left;
+}
+
+ul.topnav {
+	height:40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li .active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+footer
+{
+	height: 20px;
+	position: relative;
+	
+	display: block;
+	text-align:center;
+	background-color: red;
+}

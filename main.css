@@ -1,0 +1,191 @@
+form{
+	background-color:lavender;
+}
+.button{
+	 background-color: peachpuff;
+	 
+}
+body { font-family: sans-serif;
+	 background-image: url("swee.jpg"); 
+	margin:0;
+	padding:0;
+  } 
+
+h1 { font-weight:normal;
+	text-align: center;
+	letter-spacing:0pt;
+	word-spacing:1pt;
+	font-size:65px;
+	text-align:center;
+	font-family:palatino linotype, palatino, serif;
+	line-height:1;
+	border: 5px solid peachpuff;
+	border-radius:25px;
+	background-color:lavender;	
+	color: coral;
+	text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;}
+
+
+h2 { font-weight:normal;
+	text-align: center;
+	letter-spacing:0pt;
+	word-spacing:1pt;
+	font-size:30px;
+	text-align:center;
+	font-family:palatino linotype, palatino, serif;
+	line-height:1;
+	border: 2px solid peachpuff;
+	border-radius:25px;
+	background-color:lavender;	
+	color: coral;
+	text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;} 
+h3 {   font-weight:normal;
+	text-align: center;
+	letter-spacing:3pt;
+	word-spacing:2pt;
+	font-size:20px;
+	text-align:center;
+	font-family:palatino linotype, palatino, serif;
+	line-height:1;
+	text-align:centre;
+	color: salmon;
+	text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;} 
+
+h4 { font-weight:normal;
+	text-align: center;
+	letter-spacing:0pt;
+	word-spacing:1pt;
+	font-size:20px;
+	text-align:center;
+	font-family:palatino linotype, palatino, serif;
+	line-height:1;
+	border: 0px solid peachpuff;
+	border-radius:25px;
+	background-color:lavender;	
+	color: coral;
+	text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;} 
+
+article{ margin-left:auto; margin-right:auto; 
+         width:70%;
+	text-align:center;
+         border: 5px solid peachpuff;
+	 border-radius: 25px;
+	 background-image: url("sweets.jpg"); 
+	 padding: 25px 0px 75px 0px;
+	 font-family:georgia,serif;
+	 }
+section {
+	 margin-left:auto;
+	 margin-right:auto; 
+         width:75%;
+	 text-align:center;
+         border: 0px solid lavender;
+	 border-radius: 25px;	 
+	 padding: 20px 70px 20px 70px;
+	 font-family:georgia,serif;
+	 letter-spacing:3px;
+	 word-spacing:2px;
+	 font-size:24px;
+	 }
+
+table { 
+    margin:25px 100px 25px 100px;
+    border-collapse: collapse;
+    width: 80%;
+    
+}
+caption{text-align:centre}
+th
+{
+    padding: 10px;
+    text-align:center;
+    background-color:peachpuff;
+    border-bottom: 1px solid #ddd;
+}
+
+ td {
+    padding: 10px;
+    text-align:center;
+    background-color:lavender;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropbtn {
+    background-color: coral;
+    color: lavender;
+    text-align:center;
+    line-height:1;
+    padding: 20px;
+    font-size: 20px;
+    border: 3px solid peachpuff;
+    border-radius:25px;
+    width:180px;
+    cursor: pointer;
+    font-weight:italic;
+    font-family:georgia,serif;
+	text-shadow: 1px 1px 1px #000;
+
+    
+}
+
+.dropdown {
+    position: right;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lavender;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: coral;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   font-family:palatino linotype, palatino, serif;
+}
+
+.dropdown-content a:hover {background-color: gold; color:black;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: peachpuff;
+     border: 3px solid lavender;
+    color:coral;
+}
+@media screen and (max-width: 1300px){
+
+table{width:50%;
+	margin:25px 50px 25px 25%;}
+iframe{
+	width:200px;
+	height: 200px;
+      }
+
+section { width:50%;}
+article {width:50%;}
+.dropbtn {   font-size: 50%;}
+
+
+
+}
+@media screen and (max-width: 650px){
+article { width:100%; border-radius:0;}
+table { margin:20px 25% 20px 25%;}
+}
+@media screen and (max-width: 350px){
+ table { margin:20px 25% 20px 17%;}
+article { width:100%; border-radius:0;}
+section { width:30%;}
+.dropbtn {   width: 30%;font-size: 0;}
+h1 {font-size:20px;}
+
+
+}

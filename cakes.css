@@ -1,0 +1,64 @@
+body{background-image: url("sweet.jpg"); }
+h1 { font-weight:normal;
+	text-align: center;
+	letter-spacing:0pt;
+	word-spacing:1pt;
+	font-size:50px;
+	text-align:center;
+	font-family:palatino linotype, palatino, serif;
+	line-height:1;
+	border: 5px solid peachpuff;
+	border-radius:25px;
+	background-color:lavender;
+	
+	color: coral;
+	text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;}
+h3
+{
+   font-weight:normal;
+	text-align: center;
+	letter-spacing:3pt;
+	word-spacing:2pt;
+	font-size:20px;
+	text-align:center;
+	font-family:palatino linotype, palatino, serif;
+	line-height:1;
+		
+	color: salmon;
+	text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+}
+section{ margin-left:auto; margin-right:auto; 
+         width:900px;text-align:center;
+         border: 5px solid peachpuff;
+	 border-radius: 25px;
+	 background-color:lavender;
+	 padding: 35px 50px 25px 50px;
+	 font-family:georgia,serif;
+	 }
+img { 
+      
+	transition: border-radius 4s, transform 4s;
+	
+	}
+img:hover{
+		
+		border-radius:100%; 
+		transform:rotate(360deg);
+}
+
+@media screen and (max-width: 1270px)
+{
+section{width: 80%;}
+
+}
+@media screen and (max-width: 750px)
+{
+section{width: 100%;padding: 35px 0px 25px 0px;}
+
+
+
+}
+@media screen and (max-width: 740px)
+{
+h1{font-size:30px;}
+}

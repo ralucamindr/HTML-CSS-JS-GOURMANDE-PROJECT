@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="javascript.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css">
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Gurmand </title>
+</head>
+<body>
+<h1> Want a little taste of heaven?</h1>
+
+<section>
+<h3>And if you decide to eat dessert first, who could blame you?</h3>
+
+<div><div class="dropdown" style="float:center;">
+  <button class="dropbtn">Recipes</button>
+  <div class="dropdown-content">
+    <a href="tort.html">Cakes</a>
+    <a href="ciocolata.html">Chocolate chocolate chocolate</a>
+    <a href="inghetata.html">Magic ICE CREAM</a>
+    <a href="prajituri.html">Cookies and others...</a>
+  </div>
+</div>
+</div>
+</section>
+
+<article>
+<h2> Did you know? </h2>
+<h4>Cakes'Origin</h4>
+<table>
+<caption> </caption>
+<tr>
+<th> Cake</th>
+<th> Country </th>
+</tr>
+<tr>
+<td> Angel cake</td>
+<td> United Kingdom </td>
+</tr>
+<tr>
+<td> Brownie</td>
+<td> Canada </td>
+</tr>
+<tr>
+<td> Cheesecake</td>
+<td> Greece </td>
+</tr>
+<tr>
+<td> Coconut cake</td>
+<td> United States </td>
+</tr>
+<tr>
+<td> Princess cake</td>
+<td> Sweden </td>
+</tr>
+<tr>
+<td> Rum cake</td>
+<td> Jamaica </td>
+</tr>
+<tr>
+<td> Souffle</td>
+<td> France</td>
+</tr>
+<tr>
+<td> Wine cake</td>
+<td> Colombia</td>
+</tr>
+</table>
+</article>
+<article>
+<h4>Cupcake Song</h4>
+<iframe src="https://www.youtube.com/embed/LfQKYA86hKM"  width="560" height="315"> prejituri</iframe>
+</article>
+<article>
+<form id="poll" onsubmit="fform()">
+<fieldset><legend>Poll</legend>
+<br>
+<label>Name:<input type="text" name="nume" id="name">  </label>
+<br>
+<br>
+<label>email:<input type="email" name="adresa" id="email"></label>
+<br>
+<br>
+<label>What cakes do you like?</label>
+<br>
+<label><input type="checkbox" name="tort1" value="Chocolate cake" id="t1">Chocolate cake</label>
+<label><input type="checkbox" name="tort2" value="Strawberries cake" id="t2">Strawberries cake</label>
+<label><input type="checkbox" name="tort3" value="Vanilla cake" id="t3">Vanilla cake</label>
+<br>
+<br>
+<label>What do you prefer MOST?</label>
+<br>
+<label><input type="radio" name="rad" value="cake" id="a1"> Cakes </label>
+<label><input type="radio" name="rad" value="cookie" id="a2"> Cookies</label>
+<label><input type="radio" name="rad" value="icecream" id="a3">Ice cream</label> 
+<br>
+<br>
+<br>
+<button type="button" id="buton" class="button" onclick="fform()" > Send </button>
+<button type="reset" class="button"> Reset</button>
+
+</fieldset>
+</form>
+<p id="art"> </p>
+</article>
+<section>
+<article id="demo"> </article>
+<button type="button" class="button" onclick="try_ajax()">AJAX </button>
+
+<br><br>
+<button class="button"id="but" onclick="main()">IMPORTANT</button>
+</section>
+</body>
+</html>
